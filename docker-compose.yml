@@ -4,7 +4,7 @@ services:
   db:
     image: postgres:14.6
     restart: unless-stopped
-    container_name: postgresql_backend_generated_app_f3b51ce9_0b24_434b_bc24_659cd757bcfc
+    container_name: postgresql_backend_generated_app_4cfc8df0_59a2_4e44_92d4_7202179f200a
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=password
